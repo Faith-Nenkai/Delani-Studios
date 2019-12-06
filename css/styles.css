@@ -1,5 +1,5 @@
-#image-2 {
-  padding: 50px;
+#img-2 {
+  padding: 20px;
 }
 
 #heading-1 {
@@ -11,6 +11,11 @@
   padding-left: 140px;
   padding-top: 20px;
 }
-.jumbotron p{
+
+.jumbotron p {
   padding-top: 20px;
+}
+
+.jumbotron {
+  background-image: url("../img/image-2.jpg");
 }
