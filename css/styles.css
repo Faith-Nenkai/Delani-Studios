@@ -18,7 +18,18 @@
 
 .jumbotron {
   background-image: url("../img/image-2.jpg");
+  color: white;
 }
 #p4{
   padding-right: 165px;
+}
+#services{
+  background-image: url("../img/image-3.jpg");
+  color: white;
+}
+#about{
+  padding-bottom: 50px;
+}
+#services-heading{
+  padding-top: 50px;
 }
