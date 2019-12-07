@@ -43,3 +43,8 @@
 .thumbnail img{
   padding-right: 50px;
 }
+.portfolio-img{
+  width: 300px;
+  height: 250px;
+  padding-bottom: 40px;
+}
