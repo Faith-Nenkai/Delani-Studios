@@ -73,44 +73,21 @@
    </div>
    </div>
      
-    <!--
-    <div class="row justify-content-md-center" id="contact-us">
-      <div class="col col-lg-2">
-      </div>
-      <div class="col-md-auto">
-        <h2 id="portfolio-heading">CONTACT US</h2>
-      </div>
-      <div class="col col-lg-2">
-      </div>
-      <div class="w-100"></div>
-      <div class="col col-lg-2">
-      </div>
-      <div class="col-md-auto">
-        <form>
-          <div class="row">
-            <div class="col" id="inputName">
-              <input type="text" class="form-control" placeholder="Name..." id="nameUser">
-            </div>
-            <div class="col" id="inputEmail">
-              <input type="email" class="form-control" placeholder="Email..." id="email">
-            </div>
-          </div>
-          <div class="row">
-            <div class="form-group" id="messageArea">
-              <textarea class="form-control" id="messageTextArea" rows="3"
-                placeholder="Enter your message here..."></textarea>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col" id="inputName">
-              <input type="submit" class="btn btn-info" value="Submit">
-            </div>
+    
+    <div class="contact-us">
+        <h1>CONTACT US</h1>
+        <form action="" method="post" id="form">
+            <input type="text" placeholder="Name..." id="nameUser">
+            <input type="email" placeholder="Email..." id="email">
+            <textarea id="messageTextArea"  placeholder="Enter your message here..."></textarea>
+            <center>
+                <input type="submit" class="btn btn-info" value="Submit" onclick="checkBlank()">
+            </center>
+            
         </form>
-      </div>
-      <div class="col col-lg-2">
-      </div>
-    </div>
-    <div class="row justify-content-md-center" id="social-media">
+        <p id="para"></p>
+     
+   <!-- <div class="row justify-content-md-center" id="social-media">
       <div class="col col-lg-2">
       </div>
       <div class="col-md-auto">

@@ -75,6 +75,10 @@ h6{
   display:inline-block;
   margin-left: 7%;
 }
+#portfolio h1{
+  font-size:32px;
+  font-weight: 5px;
+}
 #portfolio>img,.bailey{
   height: 200px;
   width: 200px;
@@ -111,10 +115,49 @@ text-align: left;
 
 
 }
-#contact-us{
+.contact-us{
   background-image: url("../img/image\ -1.jpg");
+  background-size: cover;
+  left: 0;
+  right: 0;
+  height: 70vh;
+  margin-top: 3%;
   color: white;
-  height: 60vh;
+  text-align: center;
+}
+.contact-us>h1{
+  font-size: 32px;
+  padding-top: 3%;
+}
+input{
+  background-color: transparent;
+  width: 400px;
+  z-index: 1;
+  margin: 3%;
+  border: white solid 1px;
+  margin-bottom: 1%;
+  margin-top: 1%;
+
+}
+input::placeholder{
+color: #fff;
+z-index: 1;
+}
+
+textarea{
+  background-color: transparent;
+  height: 200px;
+  width: 67%;
+  margin-top: 0.5%;
+  margin-left: 2%;
+
+}
+
+textarea::placeholder{
+  color: #fff;
+}
+#para{
+  color: skyblue;
 }
 #nameUser{
   width: 400px;
