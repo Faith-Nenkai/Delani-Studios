@@ -159,34 +159,11 @@ textarea::placeholder{
 #para{
   color: skyblue;
 }
-#nameUser{
-  width: 400px;
-  opacity: 0.2;
-  
+._icon{
+margin-top: 5%;
 }
-#email{
-  width: 400px;
-  opacity: 0.2;
-}
-#inputName{
-  padding-bottom: 50px;
-  padding-left: 100px;
-  border-color: white;
-}
-#inputEmail{
-  padding-right: 125px;
-}
-#messageArea{
-  padding-left: 100px;
-  width: 950px;
-  opacity: 0.2;
-}
-#social-media{
-  padding-top: 50px;
-}
-#social-media div img{
-  padding-bottom: 20px;
-}
-#year{
-  padding-left: 250px;
+#copyright{
+  color: black;
+  font-weight: bold;
+  padding-top: 2%;
 }
