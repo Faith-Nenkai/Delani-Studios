@@ -30,8 +30,12 @@
 #mouse{
   margin-top: 10%;
 }
-#p4{
-  padding-right: 165px;
+.contain {
+  text-align: center;
+  margin-top: 3%;
+}
+.contain p{
+  font-size: 15px;
 }
 #services{
   background-image: url("../img/image-3.jpg");
