@@ -56,12 +56,21 @@
   margin: 2%;
   margin-right: 2%;
 }
+#do-h1{
+  margin-top: 3%;
+  font-size: 32px;
+}
 .container-1{
-  margin-left: 10%;
+  margin-left: 7%;
 }
 #p1,#p2,#p3{
   display: none;
 }
+h6{
+  font-size: 13px;
+  font-weight: bold;
+}
+
 .portfolio-img{
   width: 300px;
   height: 250px;
