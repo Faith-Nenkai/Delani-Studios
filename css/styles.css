@@ -45,16 +45,22 @@
   text-align: center;
   margin-top: 3%;
 }
-
-#what-we-do{
-  padding-top: 50px;
+.container{
+  display: flex;
+  text-align: center;
 }
-#what-we-do-images{
-  padding-top: 50px;
-  padding-left: 150px;
+.container-1,.container-2,.container-3{
+  height: auto;
+  width: 300px;
+  text-align: center;
+  margin: 2%;
+  margin-right: 2%;
 }
-.thumbnail img{
-  padding-right: 50px;
+.container-1{
+  margin-left: 10%;
+}
+#p1,#p2,#p3{
+  display: none;
 }
 .portfolio-img{
   width: 300px;
