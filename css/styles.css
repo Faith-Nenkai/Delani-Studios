@@ -70,17 +70,46 @@ h6{
   font-size: 13px;
   font-weight: bold;
 }
-
-.portfolio-img{
-  width: 300px;
-  height: 250px;
-  padding-bottom: 40px;
-  padding-right: 100px;
-  padding-left: 50px;
+#portfolio{
+  margin-top: 2%;
+  display:inline-block;
+  margin-left: 7%;
 }
-#portfolio-heading{
-  padding-bottom: 20px;
-  padding-top: 20px;
+#portfolio>img,.bailey{
+  height: 200px;
+  width: 200px;
+  margin: 1%;
+  margin-top: 0%;
+  display: inline-block;
+
+}
+#last{
+  margin-right: 20%;
+}
+.bailey{
+float: right;
+background-size: cover;
+opacity: 0.9;
+background:linear-gradient(rgb(8, 8, 8),black),
+url('./img/work8.jpg');
+margin-left: -8%;
+margin-right: 10.4%; 
+text-align: left;
+}
+.bailey p{
+  border: white solid 3px;
+  margin-top: 10%;
+  margin-bottom: 2%;
+  margin-left: 8%;
+  margin-right: 8%;
+  font-weight: bold;
+  /* font-size: 20px; */
+  z-index: 1;
+  padding-left: 5%;
+  padding-top: 3%; 
+  color: white;
+
+
 }
 #contact-us{
   background-image: url("../img/image\ -1.jpg");
