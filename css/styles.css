@@ -167,3 +167,19 @@ margin-top: 5%;
   font-weight: bold;
   padding-top: 2%;
 }
+h1{
+  font-family: 'Gupter', serif;
+}
+p{
+  font-family: 'Poppins', sans-serif;
+}
+h6{
+  font-family: 'Playfair Display', serif;
+}
+h2{
+  font-family: 'Crimson Text', serif;
+}
+/* font-family: 'Gupter', serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Crimson Text', serif; */
