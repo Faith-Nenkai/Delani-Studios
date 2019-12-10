@@ -94,7 +94,7 @@ h6{
 float: right;
 background-size: cover;
 opacity: 0.9;
-background:linear-gradient(rgb(8, 8, 8),black),
+background:linear-gradient(#070606ea,#141414d0),
 url('./img/work8.jpg');
 margin-left: -8%;
 margin-right: 10.4%; 
